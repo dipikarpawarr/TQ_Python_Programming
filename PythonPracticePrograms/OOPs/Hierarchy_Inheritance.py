@@ -1,0 +1,3 @@
+class Animals:
+
+class Lion:
