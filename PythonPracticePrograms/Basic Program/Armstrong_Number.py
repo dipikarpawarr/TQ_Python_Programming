@@ -2,6 +2,16 @@
 
 number = int(input("Enter the number = "))
 
-while number>0:
-    number %= 10
-    print(number)
+numHold = number
+sum = 0
+while numHold>0:
+    digit = numHold % 10
+    sum += digit ** 3
+    numHold //= 10
+
+if sum == number:
+    print(number , " is armstrong number")
+else:
+    print(number , " is not armstrong number")
+
+

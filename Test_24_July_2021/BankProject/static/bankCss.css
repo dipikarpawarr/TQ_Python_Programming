@@ -1,0 +1,21 @@
+li{
+    color:#133b04;
+    font-size:20px;
+}
+a{
+    text-decoration:none;
+    color:#133b04;
+}
+body{
+    background-color:#a1c493;
+}
+h1{
+    color:#032733;
+}
+img{
+    position: absolute;
+    top: 19px;
+    right: 19px;
+    height:130px;
+    width:200px;
+}
