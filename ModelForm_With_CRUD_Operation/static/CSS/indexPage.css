@@ -1,0 +1,15 @@
+.inBody{
+    background: url('../Images/Main_Library.jpg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+h1{
+    color:#0d2757;
+    font-family:Serif;
+    font-size:55px;
+}
+a{
+    text-decoration:none;
+    color:#dadde3;
+}
