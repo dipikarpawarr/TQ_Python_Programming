@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Detail Information</title>
+</head>
+<body>
+  <h1>Detail Information</h1>
+  <ul>
+    <li>{{studentdata.id}}</li>
+    <li>{{studentdata.firstName}}</li>
+    <li>{{studentdata.lastName}}</li>
+    <li>{{studentdata.percentage}}</li>
+    <li>{{studentdata.standard}}</li>
+    <li><a href="/updateStudent/{{studentdata.id}}">Update</a></li>
+    <li><a href="/deleteStudent/{{studentdata.id}}">Delete</a></li>
+  </ul>
+</body>
+</html>

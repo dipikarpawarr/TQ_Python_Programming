@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if studentdata_list %}
+    <table>
+        <thead>
+        <th>ID</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Percentage</th>
+        <th>Standard</th>
+        </thead>
+        {% for record in studentdata_list %}
+        <tr>
+            <td><a href="/{{record.id}}">{{record.id}}</a></td>
+            <td>{{record.firstName}}</td>
+            <td>{{record.lastName}}</td>
+            <td>{{record.percentage}}</td>
+            <td>{{record.standard}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+        <h1>Data is not present</h1>
+    {% endif %}
+    <br><br>
+    <a href="../createStudent/">Add New Student Record</a>
+</body>
+</html>
